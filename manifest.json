@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "Be there!",
+  "version": "1.0",
+  "description": "A simple Chrome extension to navigate to pre-defined URLs.",
+  "permissions": ["tabs"],
+  "icons": {
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "commands": {
+    "open_url1": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+1",
+        "mac": "Command+Shift+1"
+      },
+      "description": "Open URL 1"
+    }
+  },
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  }
+}
+
