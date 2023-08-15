@@ -17,3 +17,10 @@ You should now be able to navigate to the various configured URLs with keyboard 
 
 The URLs are hard coded for now, take a look at [background.js](background.js) to see which these are currently. The corresponding shortcuts are configured in [manifest.json](manifest.json).
 
+## How to update
+
+After making changes, don't forget to bump the version number in [manifest.json](manifest.json)!
+
+* Navigate to _chrome://extensions/_
+* Click the update button on the _Be there!_ extension
+* Version number should now reflect your latest version
