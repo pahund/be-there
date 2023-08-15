@@ -1,5 +1,5 @@
 function navigateTo(url) {
-  chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => 
+  chrome.tabs.query({ active: true, currentWindow: true }, (tabs) =>
     chrome.tabs.update(tabs[0].id, { url: url })
   );
 }
@@ -13,11 +13,11 @@ chrome.commands.onCommand.addListener((command) => {
       break;
     case 'open_url2':
       console.log("Navigating to current sprint board of project Searchlight in Jira");
-      navigateTo('https://jira.es.ecg.tools/secure/RapidBoard.jspa?rapidView=8005');
+      navigateTo('https://jira.ets.mpi-internal.com/secure/RapidBoard.jspa?rapidView=3008005');
       break;
     case 'open_url3':
       console.log("Navigating to user story map of project Searchlight in Jira");
-      navigateTo('https://jira.es.ecg.tools/projects/MC?selectedItem=com.arijea.plugins.easy-agile-user-story-maps&rapidView=8005#/');
+      navigateTo('https://jira.ets.mpi-internal.com/projects/MC?selectedItem=com.arijea.plugins.easy-agile-user-story-maps&rapidView=3008005#/');
       break;
     default:
       console.error(`Unknown command ${command}`);
