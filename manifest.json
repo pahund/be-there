@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Be there!",
-  "version": "1.1",
+  "version": "2.0",
   "description": "A simple Chrome extension to navigate to pre-defined URLs.",
   "permissions": ["tabs"],
   "icons": {
@@ -18,21 +18,21 @@
         "default": "Ctrl+Shift+1",
         "mac": "MacCtrl+Shift+1"
       },
-      "description": "GitHub Enterprise: open Searchlight pull requests"
+      "description": "GitHub Enterprise: open FRSH pull requests"
     },
     "open_url2": {
       "suggested_key": {
         "default": "Ctrl+Shift+2",
         "mac": "MacCtrl+Shift+2"
       },
-      "description": "Jira: Searchlight spring board"
+      "description": "Jira: FRSH Kanban board"
     },
     "open_url3": {
       "suggested_key": {
         "default": "Ctrl+Shift+3",
         "mac": "MacCtrl+Shift+3"
       },
-      "description": "Jira: Searchlight user story map"
+      "description": "Jira: FRSH user story map"
     }
   },
   "background": {
