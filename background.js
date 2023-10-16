@@ -19,6 +19,10 @@ chrome.commands.onCommand.addListener((command) => {
       console.log("Navigating to user story map of project FRSH in Jira");
       navigateTo('https://jira.ets.mpi-internal.com/secure/EasyAgileUserStoryMap.jspa?rapidView=4001583#/');
       break;
+    case 'open_url4':
+      console.log("Navigating to favourite pull requests in Jenkins");
+      navigateTo('https://mo-jenkins.es.ecg.tools/user/patrick-hund/my-views/view/%E2%AD%90%EF%B8%8F%20PRs/');
+      break;
     default:
       console.error(`Unknown command ${command}`);
   }

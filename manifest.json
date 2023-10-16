@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Be there!",
-  "version": "2.0",
+  "version": "3.6",
   "description": "A simple Chrome extension to navigate to pre-defined URLs.",
   "permissions": ["tabs"],
   "icons": {
@@ -33,6 +33,13 @@
         "mac": "MacCtrl+Shift+3"
       },
       "description": "Jira: FRSH user story map"
+    },
+    "open_url4": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+4",
+        "mac": "MacCtrl+Shift+4"
+      },
+      "description": "Jenkins: favourite pull requests"
     }
   },
   "background": {
